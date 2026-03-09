@@ -1,0 +1,14 @@
+ipykernel
+numpy
+matplotlib
+scipy
+Pillow
+opencv-python
+joblib
+scikit-learn
+pandas
+seaborn
+torch
+torchvision
+torchsummary
+#torch torchvision --index-url https://download.pytorch.org/whl/cu118
