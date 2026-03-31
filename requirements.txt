@@ -11,4 +11,6 @@ seaborn
 torch
 torchvision
 torchsummary
+pyserial
+hidapi
 #torch torchvision --index-url https://download.pytorch.org/whl/cu118
