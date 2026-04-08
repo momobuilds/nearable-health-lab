@@ -1,96 +1,57 @@
-### Academic Year 2025-2026
+# Laboratory of Nearable Technology for Health Data Science
 
-This repository collects coding materials for the Politecnico di Milano
-course:
+Course materials for the Politecnico di Milano lab, Academic Year 2025/2026.
 
-**"Laboratory of Nearable Technology for Health Data Science"**\
-held by
-- Prof. Andrea Moglia
+The repository contains lecture notes, notebooks, small utilities, and example scripts used across the practical modules of the course.
+
+## Course Staff
+
+- Prof. Andrea Moglia
 - Prof. Marco Paracchini
 
-A.Y. 2025/2026
+## Repository Structure
 
-------------------------------------------------------------------------
+- `01_introduction` - introductory slides and setup material
+- `02_signal_processing` - signal processing notebook, utilities, and sample data
+- `03_image_processing` - image processing notebook and image assets
+- `04_machine_learning_deep_learning` - machine learning and deep learning materials
+- `05_ppg` - photoplethysmography (PPG) and remote PPG examples
+- `06_imu_pose_estimation` - IMU connection and pose estimation material
 
-## 📦 Getting Started
+## Getting Started
 
-### 🔹 Clone the Repository
+Clone the repository:
 
-To create a local copy of this repository on your computer, clone it
-using the following URL:
-
-    https://github.com/n-health-lab-polimi/n-health-lab-2026.git
-
-You can clone it using your preferred Git client, or via command line:
-
-``` bash
+```bash
 git clone https://github.com/n-health-lab-polimi/n-health-lab-2026.git
+cd n-health-lab-2026
 ```
 
-------------------------------------------------------------------------
+Create and activate a virtual environment:
 
-### 🔹 Fork the Repository
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
 
-This repository is **public**, meaning anyone can clone it.
+On Windows, use:
 
-If you want to create your own copy under your GitHub account (for
-assignments or experiments), click the **Fork** button in the top-right
-corner of this page.
+```bash
+.venv\Scripts\activate
+```
 
-------------------------------------------------------------------------
+Install the dependencies:
 
-## 🐍 Python Environment Setup
-
-### Required Packages
-
-All required Python packages are listed in the `requirements.txt` file.
-
-To install them using `pip`, run:
-
-``` bash
+```bash
 pip install -r requirements.txt
 ```
 
-------------------------------------------------------------------------
+## Notes
 
-### 💡 Recommended: Use a Virtual Environment
+- This repository is public and can be forked for personal experiments or coursework.
+- Some modules include datasets, media files, or hardware-related examples.
+- A few activities may require external devices such as cameras or IMU sensors.
 
-We strongly recommend creating a Python virtual environment before
-installing dependencies.
+## Support
 
-Example (using `venv`):
-
-``` bash
-python -m venv venv
-```
-
-Activate the environment:
-
-**macOS / Linux**
-
-``` bash
-source venv/bin/activate
-```
-
-**Windows**
-
-``` bash
-venv\Scripts\activate
-```
-
-Then install the required packages:
-
-``` bash
-pip install -r requirements.txt
-```
-
-If you are unfamiliar with virtual environments, search for:\
-**"How to create a virtual environment in Python"**
-
-
-------------------------------------------------------------------------
-
-## 📬 Support
-
-For questions regarding the course material, please contact the
-instructors through the official course channels.
+For course-related questions, use the official course communication channels.
